@@ -27,11 +27,16 @@ Reduced input image size (imgsz=500) to evaluate performance vs. speed.
 Increased the training duration to 10 epochs for full model convergence.
 ![Experiment C](exp_c.png)
 
+## ⚙️ How to Run
+To reproduce these experiments or train the model on your own, follow these steps:
+
+1. **Open the Notebook**: Upload the `yolov8_uav_training.ipynb` file to your [Google Colab](https://colab.research.google.com/) environment.
+2. **Enable GPU**: Ensure you are using a GPU runtime for faster training (Runtime -> Change runtime type -> T4 GPU).
+3. **Roboflow Authentication**: The script requires a dataset download. Make sure you have your Roboflow API Key ready when the script prompts you for authentication.
+4. **Execute Cells**: Run the notebook cells sequentially. You can modify the parameters in the training cells to experiment with different configurations.
+
 ## 🛠 Technologies Used
 - **YOLOv8** (Ultralytics)
 - **Python**
 - **Roboflow** (Dataset Management)
 - **Google Colab** (Training Environment)
-
-## ✍️ Author
-Serafeim
